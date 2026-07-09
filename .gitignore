@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Build / empacotamento
+build/
+dist/
+*.spec.bak
+*.zip
+*.exe
+*.dll
+
+# Dados locais e arquivos gerados
+data/
+backups/
+pdfs/
+*.xlsx
+*.xlsm
+*.xls
+*.pdf
+*.log
+*.tmp
+*.bak
+~$*
+
+# WhatsApp / bot / navegador local
+bot_node/node_modules/
+bot_node/runtime/
+bot_node/chromium/
+bot_node/.wwebjs_auth/
+bot_node/.wwebjs_cache/
+bot_node/session/
+bot_node/sessions/
+wwebjs_auth/
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Segredos e configuracoes locais
+.env
+.env.*
+secrets/
+credentials/
+
+!requirements.txt
+!pytest.ini
+!ControlePontoTarefas.spec

@@ -1,0 +1,15 @@
+{
+  "name": "appdeponto-whatsapp-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bridge WhatsApp Web para o AppDePonto",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0"
+  }
+}

@@ -52,6 +52,20 @@ O app pode apoiar rotinas de:
 - Backups automaticos.
 - Estrutura preparada para gerar executavel Windows com PyInstaller.
 
+## EXEMPLO DE USO E OCORRENCIAS
+
+A tabela abaixo exemplifica como o app pode ser usado na rotina de uma empresa. O foco principal esta nas ocorrencias, que ajudam o administrador a identificar faltas, atrasos, retornos fora do horario e tarefas/POPs nao cumpridos.
+
+| Colaborador | Setor | Ponto do dia | Tarefas / POPs | Ocorrencias geradas | Tratativa administrativa | Impacto no acompanhamento |
+| --- | --- | --- | --- | --- | --- | --- |
+| Ana Paula | Cozinha | Entrada, pausa, retorno e saida registrados corretamente | Todas as tarefas do setor foram feitas dentro do horario | Nenhuma ocorrencia | Nenhuma acao necessaria | Frequencia regular, tarefas cumpridas e bonus mantido quando configurado |
+| Bruno Silva | Atendimento | Ponto registrado normalmente, sem falta | Algumas tarefas foram feitas, mas uma tarefa obrigatoria ficou pendente apos a tolerancia | Tarefa nao cumprida ou tarefa atrasada | Administrador pode registrar observacao, orientar o colaborador e acompanhar reincidencia | Colaborador nao teve falta, mas aparece no painel de ocorrencias por descumprimento operacional |
+| Carlos Mendes | Limpeza | Nao registrou entrada em dia esperado de trabalho | Nenhuma tarefa foi marcada, pois o colaborador nao compareceu | Falta nao abonada e tarefas nao cumpridas, quando aplicavel | Administrador pode manter como falta nao abonada ou abonar com motivo/documento | Falta entra no relatorio de frequencia, pode afetar bonus de assiduidade e relatorio de pagamento |
+| Daniela Rocha | Padaria | Entrada registrada, pausa registrada, retorno feito apos a tolerancia | Tarefas concluidas normalmente | Retorno atrasado | Administrador pode registrar justificativa ou manter ocorrencia | Nao gera falta, mas registra comportamento de atraso no retorno da pausa |
+| Eduardo Lima | Estoque | Nao registrou entrada, mas apresentou justificativa aceita | Tarefas do dia foram justificadas pela ausencia | Falta abonada | Administrador registra motivo do abono e observacao | Falta aparece como abonada, nao deve ser tratada como falta nao justificada |
+
+Esse fluxo permite separar problemas diferentes. Um colaborador pode nao ter faltas, mas ainda assim gerar ocorrencias por tarefas nao cumpridas. Da mesma forma, um colaborador pode ter uma falta abonada que aparece no historico, mas nao deve ser tratada como falta nao justificada.
+
 ## LAYOUT E MODO DE USAR
 
 Ao abrir o app, o colaborador acessa uma tela simples para selecionar seu nome, bater ponto e acompanhar as tarefas do dia.

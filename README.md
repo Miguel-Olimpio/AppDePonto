@@ -56,7 +56,7 @@ O app pode apoiar rotinas de:
 
 Ao abrir o app, o colaborador acessa uma tela simples para selecionar seu nome, bater ponto e acompanhar as tarefas do dia.
 
-![imagePonto1](https://github.com/Miguel-Olimpio/AppDePonto/assets/107503116/imagePonto1)
+![imagePonto1](https://github.com/user-attachments/assets/a23174ab-be6d-4ee8-9e20-f251fbc4fdf0)
 
 ### 1. Cadastre colaboradores e setores
 
@@ -64,7 +64,7 @@ Na area administrativa, o usuario cadastra colaboradores, setores e vinculos de 
 
 Essas informacoes sao usadas para filtrar tarefas, organizar responsabilidades e calcular os registros de ponto.
 
-![imagePonto2](https://github.com/Miguel-Olimpio/AppDePonto/assets/107503116/imagePonto2)
+![imagePonto2](https://github.com/user-attachments/assets/71a9544f-eb3b-4253-a944-cd7f80d8b557)
 
 ### 2. Configure jornadas e escalas
 
@@ -90,7 +90,7 @@ O colaborador registra:
 
 O retorno da pausa e calculado automaticamente com base no momento em que a pausa foi batida e no tempo de pausa configurado na jornada.
 
-![imagePonto3](https://github.com/Miguel-Olimpio/AppDePonto/assets/107503116/imagePonto3)
+![imagePonto3](https://github.com/user-attachments/assets/339e8703-fe8d-489f-b950-8c049c5ab6cc)
 
 ### 4. Cadastre tarefas e POPs
 
@@ -104,7 +104,7 @@ O sistema identifica atrasos, faltas, retornos atrasados e tarefas nao cumpridas
 
 O administrador pode visualizar ocorrencias, registrar tratativas e abonar faltas quando necessario.
 
-![imagePonto4](https://github.com/Miguel-Olimpio/AppDePonto/assets/107503116/imagePonto4)
+![imagePonto4](https://github.com/user-attachments/assets/e9f17bcd-1eef-4a08-b819-eed11c192aaa)
 
 ### 6. Gere relatorios
 
@@ -123,7 +123,7 @@ Os PDFs sao salvos em:
 pdfs/
 ```
 
-![imagePonto5](https://github.com/Miguel-Olimpio/AppDePonto/assets/107503116/imagePonto5)
+![imagePonto5](https://github.com/user-attachments/assets/bc7ced84-1c9f-4321-8dc2-b1975fe342d6)
 
 ### 7. Use o Bot WhatsApp
 
@@ -147,6 +147,10 @@ Depois, no app:
 - acompanhe o status e os logs pela interface.
 
 A sessao do WhatsApp fica salva localmente em `data/wwebjs_auth/`, mas essa pasta nao e versionada no GitHub.
+
+A imagem abaixo demonstra a conexao do WhatsApp Bot, o acompanhamento do status e um exemplo de mensagem enviada para colaboradores.
+
+![imagePonto6](https://github.com/user-attachments/assets/1c480db8-54cd-49d2-bcfc-748220c957c3)
 
 ## TECNOLOGIAS UTILIZADAS
 
